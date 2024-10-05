@@ -1,0 +1,10 @@
+.view-container {
+  padding: 16px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.view-title {
+  color: var(--medium-blue);
+  font-weight: 400;
+}

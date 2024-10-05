@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('./styles/viewStyles.css');
+@import url('./styles/TableStyles.css');
+
+:root {
+
+  --darker-grey: #3c3c3c;
+  --dark-grey: #515151;
+  --medium-grey:#666666;
+  --light-grey: #8c8c8c;
+  --lighter-grey:#fbf1f1;
+
+
+  
+  --medium-red: #9E2B2A;
+  --bright-red: #FF5956;
+  --light: #EDFFfD;
+  --bright-blue: #20D0CE;
+  --light-blue: #4fb4dc;
+  --medium-blue: #125873;
+
+  --p-inputtext-hover-border-color:#4fb4dc!important;
+  --p-inputtext-focus-border-color: #4fb4dc!important;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,body {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-family: "Ubuntu", sans-serif;
+  overflow: hidden;
+}
+
+ul,li {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.p-inputtext{}
+
+.p-inputtext:focus {
+  outline-color: var(--light-blue);
+}
